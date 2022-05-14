@@ -1,0 +1,22 @@
+.card-mascotas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    width: 70%;
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+.card-mascotas img{
+    width: 100%;
+    height: 50%;
+}
+.card-mascotas h2, h4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.card-mascotas button{
+    margin-left: 40%;
+}

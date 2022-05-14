@@ -1,0 +1,58 @@
+.container-darAdop{
+    background: white;
+    width: 70%;
+    height: 600px;
+    margin-top: 120px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.container-darAdop h1{
+    display: flex;
+    justify-content: center;
+}
+.container-darAdop p{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    background: rgba(250,0,0,0.5);
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 5px;
+}
+.Formulario {
+    display: grid; 
+    grid-template-columns:repeat(2,1fr); 
+    margin-top: 25px;
+    margin-left: 50px;
+    gap: 10px;
+}
+label{ 
+    margin-left: 20%;
+}
+input[type="date"],
+input[type="text"],
+select{
+    height: 40px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    margin-right: 20%;
+}
+textarea{
+    height: 100px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    margin-right: 20%;
+}
+.container-darAdop button{
+    margin-top: 20px;
+    margin-left: 40%;
+}
